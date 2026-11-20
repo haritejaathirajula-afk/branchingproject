@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgreen;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        h1 {
+            color: darkgreen;
+        }
+
+        button {
+            padding: 10px 25px;
+            background-color: blue;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome!</h1>
+    <h2>You have successfully logged in.</h2>
+
+    <button onclick="location.href='login.html'">
+        Logout
+    </button>
+
+</body>
+</html>
